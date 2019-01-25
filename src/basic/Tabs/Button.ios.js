@@ -4,7 +4,7 @@ const { TouchableOpacity, View } = ReactNative;
 
 const Button = props => {
   return (
-    <TouchableOpacity activeOpacity={0.6} {...props}>
+    <TouchableOpacity {...props}>
       {props.children}
     </TouchableOpacity>
   );
